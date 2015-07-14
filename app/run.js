@@ -6,6 +6,7 @@ var topEnv = require('./environment/topEnv');
 function run() {
   var env = Object.create(topEnv);
   var program = Array.prototype.slice.call(arguments, 0).join("\n");
+  //console.log("!!!" + program + "!!!");
   return evaluate(parse(program), env);
 }
 
