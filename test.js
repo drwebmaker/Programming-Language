@@ -81,7 +81,7 @@ describe('Programming Language', function() {
     });
 
     it('Must be have property "define"', function() {
-      expect(SpecialForms).to.have.property("define");
+      expect(specialForms).to.have.property("define");
     });
 
   });
